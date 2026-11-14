@@ -1,4 +1,5 @@
 target/
+bin/
 *.class
 .idea/
 *.iml
@@ -7,4 +8,5 @@ target/
 .project
 .classpath
 *.log
+db.properties
 application.properties

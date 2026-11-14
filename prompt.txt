@@ -1,0 +1,18 @@
+Project Name: University Academic & Course Enrollment Management System
+Course: Object-Oriented Programming & Database Management Systems
+Requirement:
+Develop a complete desktop application using Java Swing and MySQL database that demonstrates:
+1. Object-Oriented Programming (OOP) concepts:
+   - Encapsulation: Private fields with public getters/setters, validation checks.
+   - Inheritance: Abstract Person base class extended by Student, Faculty, and Administrator.
+   - Polymorphism: Abstract getRoleName() and getDashboardMessage() overridden across sub-classes.
+   - Abstraction: Clean Data Access Objects (DAOs) separating business/database queries.
+2. Relational Database & JDBC:
+   - MySQL 8.0+ database with foreign keys, constraints, and relational integrity.
+   - Parameterized queries using PreparedStatement to prevent SQL injection.
+   - ACID transactional safety with row-level locking (SELECT ... FOR UPDATE) preventing race conditions during course enrollment when capacity reaches limit.
+3. User Interface:
+   - Modern, high-contrast, clean Java Swing desktop GUI.
+   - Dual mode: Modern Swing GUI by default, interactive CLI mode via --cli argument.
+   - Real-time dashboard with key metrics (Total Students, Faculty, Courses, Active Enrollments).
+   - Panels for Students, Faculty, Courses, Course Offerings, Enrollments, Student Portal, Faculty Portal, and System Architecture/About.
